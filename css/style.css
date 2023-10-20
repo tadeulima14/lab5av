@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: rgb(204, 219, 240);
+  }
+
+.myvid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	border:1px solid black;
+  height: fit-content;
+  margin-top: 40px;
+  margin-left:90px ;
+  margin-right: 90px;
+  padding-top: 20px;
+}
+
+.controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:20px;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:50px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
